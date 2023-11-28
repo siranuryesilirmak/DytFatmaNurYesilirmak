@@ -57,6 +57,11 @@ header {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+}
+
 header > nav {
   color: var(--light-white);
   width: var(--box-size);
@@ -67,6 +72,8 @@ header > nav {
 header > nav > ul {
   float: left;
   list-style: none;
+  
+  
 }
 
 header > nav > ul:last-of-type {
